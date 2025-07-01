@@ -46,10 +46,11 @@
 
 ## 📁 Folder Structure
 
-- `app.py` – Main Flask server
-- `templates/` – HTML templates (index, result, etc.)
-- `static/` – CSS, images
-- `utils/` – Backend utility scripts
+- `app.py` – Main Flask application that handles routing, form submission, and rendering the HTML template.
+
+- `analysis_core.py` – Core logic module that analyzes the uniqueness of the given project idea.
+
+- `templates/index.html` – Frontend HTML template rendered by Flask to display the input form and results.
 
 ## ✅ Future Enhancements
 
